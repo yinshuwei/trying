@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'dart:async';
 
 main() async {
   Dio dio = new Dio();
