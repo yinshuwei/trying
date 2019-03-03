@@ -1,0 +1,3 @@
+name: tour
+dependencies:
+  dio: ^2.0.15 
