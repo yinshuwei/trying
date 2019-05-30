@@ -11,17 +11,17 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
             }
 
             let doc = $(request.source)
-            let datas = doc.find('#J_ItemList .product')
+            let datas = doc.find('.J_TItems .item')
 
             datas.each(function () {
                 let p = $(this)
                 let id = p.attr('data-id')
-                let img = p.find('.productImg-wrap img').attr('src')
-                let name = p.find('.productTitle a').text()
-                let price = p.find('.productPrice em').text()
-                let shop = p.find('.productShop a').text()
-                let saleVolume = p.find('.productStatus span').eq(0).find('em').text()
-                let evaluate = p.find('.productStatus span').eq(1).find('a').text()
+                let img = p.find('.J_TGoldData img').attr('src')
+                let name = p.find('.item-name.J_TGoldData').text()
+                let price = p.find('.c-price').text()
+                let shop = p.find('.c-price').text()
+                let saleVolume = p.find('.sale-num').text()
+                let evaluate = p.find('.rates span').text()
 
                 oldProducts[id] = {
                     id: id,
@@ -44,7 +44,7 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
                 });
             })
             if (main.started) {
-                setTimeout(startLoad, 1000)
+                setTimeout(startLoad, 3000*Math.round(1))
             }
         })
     }
