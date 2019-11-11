@@ -5,4 +5,4 @@ authors = ["yinshuwei <yinshuwei@foxmail.com>"]
 
 [dependencies]
 
-rand = "0.3.14"
+rand = "0.5.6"

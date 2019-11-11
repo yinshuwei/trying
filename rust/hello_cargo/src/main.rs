@@ -1,4 +1,6 @@
+pub mod demo;
+
 fn main() {
-    println!("Hello, world!");
-    println!("lll")
+    // demo::struct_demo::run();
+    // demo::option_demo::run();
 }
