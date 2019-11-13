@@ -10,4 +10,12 @@ pub fn run() {
     // let word = format!("{}{}", hello, "_好好好");
     println!("{}", hello);
     println!("{}", word);
+
+    for c in word.chars() {
+        println!("{}", c);
+    }
+
+    for c in "नमस्ते".chars() {
+        println!("{}", c);
+    }
 }

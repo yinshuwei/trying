@@ -31,4 +31,11 @@ pub fn run() {
     for i in &v {
         println!("{}", i);
     }
+
+    let a = String::from("A");
+    let b = String::from("B");
+    let v = vec![a, b];
+    for i in &v {
+        println!("{}", i);
+    }
 }
