@@ -6,5 +6,8 @@ fn main() {
     // demo::vector_demo::run();
     // demo::string_demo::run();
     // demo::hashmap_demo::run();
-    demo::panic_demo::run();
+    // demo::panic_demo::run();
+    // demo::generics_demo::run();
+    // demo::traits_demo::run();
+    demo::lifetime_demo::run();
 }

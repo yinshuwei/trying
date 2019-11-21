@@ -1,6 +1,9 @@
+pub mod generics_demo;
 pub mod hashmap_demo;
+pub mod lifetime_demo;
 pub mod option_demo;
 pub mod panic_demo;
 pub mod string_demo;
 pub mod struct_demo;
+pub mod traits_demo;
 pub mod vector_demo;
