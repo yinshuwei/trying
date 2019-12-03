@@ -9,5 +9,7 @@ fn main() {
     // demo::panic_demo::run();
     // demo::generics_demo::run();
     // demo::traits_demo::run();
-    demo::lifetime_demo::run();
+    // demo::lifetime_demo::run();
+    // demo::closures_demo::run();
+    demo::iterators_demo::run();
 }

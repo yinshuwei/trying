@@ -1,5 +1,7 @@
+pub mod closures_demo;
 pub mod generics_demo;
 pub mod hashmap_demo;
+pub mod iterators_demo;
 pub mod lifetime_demo;
 pub mod option_demo;
 pub mod panic_demo;
