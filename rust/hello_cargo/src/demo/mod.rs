@@ -9,3 +9,5 @@ pub mod string_demo;
 pub mod struct_demo;
 pub mod traits_demo;
 pub mod vector_demo;
+pub mod variables_demo;
+pub mod ownership_demo;
