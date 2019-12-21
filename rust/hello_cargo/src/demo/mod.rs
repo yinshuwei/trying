@@ -11,3 +11,5 @@ pub mod traits_demo;
 pub mod vector_demo;
 pub mod variables_demo;
 pub mod ownership_demo;
+pub mod box_demo;
+pub mod deref_demo;

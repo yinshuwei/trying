@@ -14,4 +14,6 @@ fn main() {
     // demo::lifetime_demo::run();
     // demo::closures_demo::run();
     // demo::iterators_demo::run();
+    // demo::box_demo::run();
+    demo::deref_demo::run();
 }
