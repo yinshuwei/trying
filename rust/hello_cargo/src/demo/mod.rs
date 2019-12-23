@@ -13,3 +13,8 @@ pub mod variables_demo;
 pub mod ownership_demo;
 pub mod box_demo;
 pub mod deref_demo;
+pub mod drop_demo;
+pub mod rc_demo;
+pub mod ref_cell_demo;
+pub mod rc_ref_cell_demo;
+pub mod weak_demo;
