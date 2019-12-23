@@ -18,3 +18,5 @@ pub mod rc_demo;
 pub mod ref_cell_demo;
 pub mod rc_ref_cell_demo;
 pub mod weak_demo;
+pub mod threads_demo;
+pub mod message_passing_demo;
