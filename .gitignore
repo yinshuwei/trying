@@ -4,3 +4,4 @@ codes
 *.zip
 **/*.lock
 node/pixi/images/
+go/ok/
