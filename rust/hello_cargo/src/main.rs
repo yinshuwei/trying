@@ -22,5 +22,6 @@ fn main() {
     // demo::rc_ref_cell_demo::run();
     // demo::weak_demo::run();
     // demo::threads_demo::run();
-    demo::message_passing_demo::run();
+    // demo::message_passing_demo::run();
+    demo::shared_state_demo::run();
 }
