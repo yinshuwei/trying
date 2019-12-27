@@ -11,7 +11,7 @@ pub fn run() {
         let handle = thread::spawn(move || {
             let mut num = counter.lock().unwrap();
             *num += 1;
-            // drop(num); // 可以用drop来释放锁
+            // drop(num); // 可以用drop来释放锁,或者用块
             thread::sleep(Duration::from_secs(1));
         });
         handles.push(handle);
