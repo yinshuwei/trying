@@ -21,3 +21,4 @@ pub mod weak_demo;
 pub mod threads_demo;
 pub mod message_passing_demo;
 pub mod shared_state_demo;
+pub mod amqp;

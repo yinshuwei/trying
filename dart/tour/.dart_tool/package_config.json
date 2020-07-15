@@ -1,0 +1,26 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "cookie_jar",
+      "rootUri": "file:///home/ysw/.pub-cache/hosted/pub.flutter-io.cn/cookie_jar-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.20"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///home/ysw/.pub-cache/hosted/pub.flutter-io.cn/dio-2.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "1.9"
+    },
+    {
+      "name": "tour",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2020-02-12T05:20:43.531769Z",
+  "generator": "pub",
+  "generatorVersion": "2.7.0"
+}
