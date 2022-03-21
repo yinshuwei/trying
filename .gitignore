@@ -6,3 +6,4 @@ codes
 node/pixi/images/
 go/ok/
 *.pyc
+go/debug/go.sum
