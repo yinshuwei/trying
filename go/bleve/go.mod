@@ -25,5 +25,5 @@ require (
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/steveyen/gtreap v0.1.0 // indirect
 	go.etcd.io/bbolt v1.3.5 // indirect
-	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
+	golang.org/x/sys v0.1.0 // indirect
 )
