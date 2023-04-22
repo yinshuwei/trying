@@ -1,6 +1,7 @@
 pub mod demo;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     // demo::variables_demo::run();
     // demo::ownership_demo::run();
     // demo::struct_demo::run();
@@ -20,7 +21,7 @@ fn main() {
     // demo::rc_demo::run();
     // demo::ref_cell_demo::run();
     // demo::rc_ref_cell_demo::run();
-    demo::weak_demo::run();
+    demo::sqlx_demo::run().await;
     // demo::threads_demo::run();
     // demo::message_passing_demo::run();
     // demo::shared_state_demo::run();
